@@ -1,0 +1,8 @@
+psycopg2-binary
+pymupdf
+langchain-openai
+langchain-core
+python-dotenv
+sentence-transformers
+faiss-cpu
+pymupdf
