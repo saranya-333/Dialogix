@@ -12,31 +12,60 @@ from sentence_transformers import SentenceTransformer
 # -----------------------------
 # CONFIG
 # -----------------------------
-PDF_FOLDER = r"C:\Users\logesh\Downloads\Policy_Documents_–_iAgami"
+PDF_FOLDER = "Policy_Documents_iAgami"
 
 MODEL_NAME = "all-MiniLM-L6-v2"   # FREE local model
 EMBED_DIM = 384
 
 INDEX_FILE = "vector.index"
 META_FILE = "metadata.json"
-CHUNKS_DEBUG_FILE = "chunks_debug.txt"   # 👈 NEW
+CHUNKS_DEBUG_FILE = "chunks_debug.txt"
 
 model = SentenceTransformer(MODEL_NAME)
 
 # -----------------------------
-# HEADING DETECTION
+# TEXT NORMALIZATION (NEW)
+# -----------------------------
+def normalize_line(line: str) -> str:
+    """
+    Cleans up bullet symbols and spacing issues
+    so headings can be detected reliably.
+    """
+    line = line.strip()
+    line = re.sub(r"[➢•◦▪]+", " ", line)   # remove bullet symbols
+    line = re.sub(r"\s+", " ", line)       # normalize spaces
+    return line.strip()
+
+
+# -----------------------------
+# HEADING DETECTION (UPDATED)
 # -----------------------------
 def is_heading(line: str):
-    line = line.strip()
+    """
+    Generic structural section detection.
+    Detects numbered headings anywhere in a line, without hardcoding domain terms.
+    """
 
-    # Numbered headings: 1, 1.1, 2.3.4 Title
-    if re.match(r"^\d+(\.\d+)*\s+.+", line):
-        parts = line.split(maxsplit=1)
-        return True, parts[1] if len(parts) > 1 else line
+    clean = normalize_line(line)
 
-    # ALL CAPS headings ending with :
-    if line.isupper() and line.endswith(":") and len(line.split()) <= 7:
-        return True, line.rstrip(":")
+    # 1️⃣ Numbered section headings (inline or line-start)
+    # Matches:
+    # 1. CASUAL LEAVE
+    # 7. LOSS OF PAY (LOP)
+    # 3. Maternity Leave
+    match = re.search(
+        r"\b(\d+(\.\d+)*)\.\s+([A-Za-z][A-Za-z\s()/\-]{3,})",
+        clean
+    )
+
+    if match:
+        section_number = match.group(1)
+        section_title = match.group(3).strip()
+        return True, f"{section_number}. {section_title}"
+
+    # 2️⃣ ALL CAPS standalone headings
+    if clean.isupper() and len(clean.split()) <= 7:
+        return True, clean
 
     return False, None
 
@@ -54,11 +83,11 @@ def extract_structural_chunks(pdf_path, document_title):
         text = page.get_text()
 
         for raw_line in text.split("\n"):
-            line = raw_line.strip()
-            if not line:
+            raw_line = raw_line.strip()
+            if not raw_line:
                 continue
 
-            is_hdr, title = is_heading(line)
+            is_hdr, title = is_heading(raw_line)
 
             if is_hdr:
                 if buffer:
@@ -73,7 +102,7 @@ def extract_structural_chunks(pdf_path, document_title):
 
                 current_section = title
             else:
-                buffer.append(line)
+                buffer.append(normalize_line(raw_line))
 
     if buffer:
         chunks.append({
@@ -135,7 +164,7 @@ def save(index, metadata):
         json.dump(metadata, f, indent=2)
 
 # -----------------------------
-# SAVE DEBUG CHUNK FILE (NEW)
+# SAVE DEBUG CHUNK FILE
 # -----------------------------
 def save_chunks_debug_file(chunks):
     with open(CHUNKS_DEBUG_FILE, "w", encoding="utf-8") as f:
@@ -162,7 +191,7 @@ if __name__ == "__main__":
     index, metadata = build_index(all_chunks)
 
     save(index, metadata)
-    save_chunks_debug_file(all_chunks)   # 👈 NEW
+    save_chunks_debug_file(all_chunks)
 
     print("\n✅ Embedding completed successfully")
     print(f"📁 Vector index saved as : {INDEX_FILE}")
