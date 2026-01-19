@@ -4,6 +4,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : INTRODUCTION
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: INTRODUCTION
+Content:
 1
 
 ================================================================================
@@ -12,6 +15,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : WHAT IS A CODE OF CONDUCT?
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: WHAT IS A CODE OF CONDUCT?
+Content:
 The Code of Conduct outlines the expectations and behaviors of the Company’s employees. The goal of this Code is to ensure that every employee of the Company is aware of acceptable conduct and ethical behavior.
 
 ================================================================================
@@ -20,6 +26,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : APPLICABILITY:
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: APPLICABILITY:
+Content:
 This Code applies to all employees of the Company in India, including trainees and temporary staff.
 
 ================================================================================
@@ -28,6 +37,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : CODE:
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: CODE:
+Content:
 The Company is committed to conducting its business transparently by adopting the highest standards of professionalism, honesty, integrity, and ethical behavior. All employees are expected to strictly adhere to this Code of Conduct.
 
 ================================================================================
@@ -36,6 +48,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : GENERAL STANDARDS OF CONDUCT:
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: GENERAL STANDARDS OF CONDUCT:
+Content:
 Honesty and Fairness: Employees are expected to perform their duties with honesty and fairness, avoiding conflicts of interest and ensuring all business dealings are conducted ethically. All employees should be aware of all policies and procedures applicable to the Company and abide by them to the fullest extent. While policies and procedures could be questioned, they should happen through appropriate forums responsible for the review of policies and until any such change happens, no person should violate the existing policy/procedure.
 
 ================================================================================
@@ -44,6 +59,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : EQUAL OPPORTUNITIES:
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: EQUAL OPPORTUNITIES:
+Content:
 We recruit people solely on merit and reward people based on their performance and potential without discrimination on grounds of age, race, caste, ethnic origin, religion, political or other opinion, gender, sexual orientation, marital status, or disability/disease unrelated to the role. 2 No employee will discriminate between others based on any of the above grounds or based on any other personal prejudices or biases.
 
 ================================================================================
@@ -52,6 +70,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : ENABLING WORK ENVIRONMENT:
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: ENABLING WORK ENVIRONMENT:
+Content:
 The Company respects the rights and dignity of all employees. We aim to establish clear values and objectives so that all employees understand and are committed to the aims of the Company and see their roles within it. We will seek to create a challenging environment of empowerment and continuous learning, to recognize individual and team contributions, and to reward competitively, relative to performance. It is expected that all employees in the Company treat the people they interact with, both within and outside the Company, with respect and in a manner that their self- esteem and dignity are maintained at all times. All employees shall work in a collaborative manner towards the achievement of business goals, putting the interests of the team and the Company before their own. They will work in a manner that is open, honest, straightforward, and fair, respectful of the roles and views of others, and actively listening and dialoguing with teammates. Employees will freely share required information, learn from each other, help one another to develop and grow, and contribute towards making the experience of working for the Company an enjoyable one. The Company is committed to providing a work environment free of unlawful harassment. Sexual harassment and harassment based on age, race, religion, caste, ethnic origin, disability unrelated to the role, marital status, sexual orientation, pregnancy/childbirth, or any other basis is prohibited. No employee will indulge in or condone harassment of any kind. Our policy on sexual harassment spells out further details on this particular type of harassment.
 
 ================================================================================
@@ -60,6 +81,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : CONFLICT OF INTEREST:
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: CONFLICT OF INTEREST:
+Content:
 The term “conflict of interest” describes any circumstances that could cast doubt on our ability to act with total objectivity concerning the Company's interests. 3 No employee will be involved in any arrangement or circumstances, including family or other personal relationships, which might discourage him/her from acting in the best interest of the Company. No employee or his/her family member will act as a broker or on behalf of a third party in transactions involving or potentially involving the Company. Employees or their family members will not have any financial interest in any outside enterprise that is currently doing business or seeks to do business with or is a competitor of the Company if the employee comes to know that the Company is doing business with any organization/individual with which he/she is directly or indirectly involved. An employee should not be the final decision maker for any business contract or arrangement with any organization wherein his/her relatives/close friends are employed in key positions. In the event an employee finds himself/herself in a position of having to decide on such a contract or arrangement, he/she should refrain from taking such a decision and refer the matter to his/her superior for taking a decision, clearly informing his/her superior of his/her relationship with key personnel in the other organization. An employee must declare that he/she is related to any other employee of the Company as soon as he/she discovers it, through a written letter/mail to the Head
 
 ================================================================================
@@ -68,6 +92,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : HR.
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: HR.
+Content:
 Employees shall not exploit for their personal gain opportunities that are discovered through the use of corporate property, information, or position. No employee shall solicit or promote any personal/public cause or organization/ association during working hours.
 
 ================================================================================
@@ -76,6 +103,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : PAYMENT, GIFTS, AND ENTERTAINMENT:
 Page     : 4
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: PAYMENT, GIFTS, AND ENTERTAINMENT:
+Content:
 The Company will not make any contribution of company funds, property, or services to a political party or religious organization, or a candidate for or holder of any Government office. No employee will offer any gifts, favors, or entertainment to others that are: i. Not consistent with customary business practice. ii. Excessive in value and/or could be construed as a bribe or pay-off in violation of applicable laws or ethical standards, such that public disclosure could 4 embarrass the Company or oneself. Employees should get the prior approval of the Business/Functional Head to incur any expenses towards entertainment. iii. Business/Functional Heads are responsible for monitoring the incurred entertainment expense patterns of their employees to ensure that the amount is used judiciously. All expenditures that do not have the necessary documentation, bills, etc. will not be reimbursed. Entertainment expenditure on alcoholic drinks will be permitted only with the specific approval of the Business/Functional Head. iv. Employees should not as a principle, accept gifts in kind or cash or enjoy any special privileges from any business associate. Complimentary gifts/Sweets may be accepted only on festive occasions if they serve the purpose of maintaining proper and good relationships with our regular business associates; however, the value of such complimentary gifts should not exceed Rs. 1000/- in value. Moreover, it is preferable that sweets, etc. if accepted on festive occasions are received only at the place of work and shared with colleagues v. Employees should not accept offers to be entertained by an individual or organizations with whom the Company transacts business. Invitations to occasional lunches/dinners hosted by our business associates may be accepted, if it serves the purpose of enhancing the relationship, after informing the immediate superior. It is essential that in the event of an employee accepting complimentary gifts (up to the value specified) or attending an occasional lunch/dinner; there should be no scope for this to be construed as having influenced the judgment of the recipient. vi. Employees will be reimbursed for outstation travel/local conveyance expenses incurred on account of official work as per policy of the Company. Employees should claim only expenses incurred and should not inflate/falsify expense claims even if these are within the prescribed limits for the individual. Under no circumstances shall personal expenses be reimbursed by the company.
 
 ================================================================================
@@ -84,6 +114,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : USE OF THE COMPANY’S ASSETS:
 Page     : 5
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: USE OF THE COMPANY’S ASSETS:
+Content:
 Protecting the Company's assets is a key responsibility of every employee. Care should be taken to ensure that assets are not misused, misappropriated, loaned to others, or sold or donated, or mortgaged, without appropriate authorization. Employees may not use Company assets for personal use, nor may they allow any 5 other person to use Company assets. Every employee is personally responsible for all Company funds over which he/she exercises control. Company funds must be used only for business purposes. Every employee must take reasonable steps to ensure that the Company receives good value for Company funds spent and must maintain accurate and timely records of expenditure.
 
 ================================================================================
@@ -92,6 +125,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : COMPLIANCE:
 Page     : 5
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: COMPLIANCE:
+Content:
 It is the Company's policy to comply fully in letter and spirit with all applicable laws, rules, and regulations. In case of ambiguity of the laws or their interpretation, legal advice should be sought. All required information shall be made accessible to the Company’s auditors other authorized persons and government agencies. False or misleading entries, unrecorded funds or assets, or payments without appropriate supporting documentation and approval are strictly prohibited and violate Company policy and the Law. There shall be no willful omissions of any company transactions from the books and records, no advance income recognition, and no hidden bank accounts and funds. No employee in any way will cause the company's accounts or other records to not clearly describe and properly state the true nature and timing of a business activity or transaction.
 
 ================================================================================
@@ -100,6 +136,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : ENVIRONMENT, HEALTH AND SAFETY:
 Page     : 6
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: ENVIRONMENT, HEALTH AND SAFETY:
+Content:
 Employees should carefully consider the potential impact of the c o m p a n y ’ s activities, products, and services on human health, a n d t h e environment. T h e y should take necessary measures, beyond meeting legal requirements, to mitigate this impact. In the course of carrying out their responsibilities, employees should ensure that their acts of commission and omission adversely affect the Environment. 6
 
 ================================================================================
@@ -108,6 +147,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : RELATIONS WITH CUSTOMERS:
 Page     : 6
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: RELATIONS WITH CUSTOMERS:
+Content:
 The Company recognizes that our customers are of paramount importance and the Company will prosper only to the extent that we meet and exceed the needs of our customers. All employees must: i. Recommend, products and/or services from the Company that best suits the customer’s needs. ii. Ensure that products and/or services supplied to customers meet the stated quantity and specifications. iii. Endeavour to meet delivery commitments to customers and notify them well in advance if unable to do so due to unavoidable reasons. iv. Respond promptly to all queries from customers. v. Handle all customer complaints promptly and fairly.
 
 ================================================================================
@@ -116,6 +158,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : MEDIA POLICY:
 Page     : 7
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: MEDIA POLICY:
+Content:
 Employees should refrain from interaction/communication with print and electronic media on topics that could impact the company’s image. All statements to the media should be truthful and fair. Only authorized individuals within each business unit and division are permitted to communicate with the media on specific subjects. Employees should not selectively disclose nonpublic information to certain groups. Ensure the prior approval from customers, vendors, etc, is necessary if their references are made. Posting or discussing information concerning the Company's services or business on the Internet without the prior written consent of the Head of the Company /Business is prohibited. Advertising should not misrepresent the product and should not be likely to mislead consumers. All employees are required to protect the trademarks, brand names, and other proprietary material of the company and third parties. Disparaging competitors' products or services and making political or religious remarks in advertisements should be avoided. 7
 
 ================================================================================
@@ -124,6 +169,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : CONFIDENTIAL INFORMATION:
 Page     : 7
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: CONFIDENTIAL INFORMATION:
+Content:
 Please be mindful of the following guidelines: Employees should use any information obtained during work duties solely for its intended purpose and not for personal or third-party gain. Do not disclose confidential information without proper authorization. The Company has many kinds of business relationships with many companies and individuals. All employees should take special care in handling confidential information of our customers, potential customers, suppliers, potential suppliers, or any other third party with responsibility. As per the terms of the Employment Contract, all employees must dedicate their full-time attention to their responsibilities with the company. They should not serve as an employee, agent, director, partner, or consultant of any other business enterprise. Also, employees who resign from the services of the Company should not take up employment with a competitor for at least one year.
 
 ================================================================================
@@ -132,6 +180,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : ELECTRONIC RESOURCES USAGE:
 Page     : 8
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: ELECTRONIC RESOURCES USAGE:
+Content:
 Employees are required to use only licensed software and take backup of all important data. Uses that threaten the integrity of the system, and the privacy of others, or that are otherwise illegal, are hence forbidden. The Company reserves the right to access and monitor all messages and files on its system, as well as information regarding employee internet use when deemed necessary and appropriate. The electronic resources must be used in an effective, ethical and lawful manner. Users who receive or notice obscene or inappropriate messages are required to report them immediately to their immediate superior or the Human Resources Department. The Company will not be held responsible for any illegal actions of employees concerning the use of electronic resources. 8
 
 ================================================================================
@@ -140,6 +191,9 @@ Document : CODE OF CONDUCT_Iagami_final
 Section  : CHANGE LOG:
 Page     : 8
 --------------------------------------------------------------------------------
+Document Title: CODE OF CONDUCT_Iagami_final
+Section Title: CHANGE LOG:
+Content:
 Version Date Author Section Change Description 1.0 15-05-2020
 
 ================================================================================
@@ -156,6 +210,9 @@ Document : EMPLOYEE BENEFITS POLICY_IAgami_final
 Section  : EMPLOYEE BENEFITS POLICY
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: EMPLOYEE BENEFITS POLICY_IAgami_final
+Section Title: EMPLOYEE BENEFITS POLICY
+Content:
 Our Company is unwavering in its commitment to providing a comprehensive and competitive benefits package to attract, retain, and motivate our valued employees. This policy outlines the benefits offered to all regular, full-time employees.
 
 ================================================================================
@@ -164,6 +221,9 @@ Document : EMPLOYEE BENEFITS POLICY_IAgami_final
 Section  : ELIGIBILITY:
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: EMPLOYEE BENEFITS POLICY_IAgami_final
+Section Title: ELIGIBILITY:
+Content:
 All regular, full-time employees are eligible for the benefits outlined in this policy. Part-time employees may be eligible for certain benefits on a prorated basis.
 
 ================================================================================
@@ -172,6 +232,9 @@ Document : EMPLOYEE BENEFITS POLICY_IAgami_final
 Section  : RETIREMENT:
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: EMPLOYEE BENEFITS POLICY_IAgami_final
+Section Title: RETIREMENT:
+Content:
 The retirement age for the employees is firmly set at 58 years.
 
 ================================================================================
@@ -180,6 +243,9 @@ Document : EMPLOYEE BENEFITS POLICY_IAgami_final
 Section  : OVERTIME:
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: EMPLOYEE BENEFITS POLICY_IAgami_final
+Section Title: OVERTIME:
+Content:
 Employees who work overtime will not get any additional remuneration for the extra hours spent at work.
 
 ================================================================================
@@ -188,6 +254,9 @@ Document : EMPLOYEE BENEFITS POLICY_IAgami_final
 Section  : PROFESSIONAL DEVELOPMENT:
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: EMPLOYEE BENEFITS POLICY_IAgami_final
+Section Title: PROFESSIONAL DEVELOPMENT:
+Content:
 The Company is committed to the professional development of its employees. The Company offers a variety of training and development opportunities, including tuition reimbursement programs for job-related courses, if necessary.
 
 ================================================================================
@@ -196,6 +265,9 @@ Document : EMPLOYEE BENEFITS POLICY_IAgami_final
 Section  : WORK-LIFE BALANCE INITIATIVES:
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: EMPLOYEE BENEFITS POLICY_IAgami_final
+Section Title: WORK-LIFE BALANCE INITIATIVES:
+Content:
 Just a Minute (JAM) Sessions: To promote creativity and quick thinking, employees will participate in daily "Just a Minute" (JAM) sessions, where they can speak on a topic for one minute. These sessions aim to enhance communication skills and provide a daily break from routine tasks. Fun Friday Activities: Every Friday, the company will organize fun and engaging activities to foster team bonding and reduce workplace stress. These activities will vary each week and may include games, quizzes, or team-building exercises.
 
 ================================================================================
@@ -204,6 +276,9 @@ Document : EMPLOYEE BENEFITS POLICY_IAgami_final
 Section  : CHANGES TO BENEFITS:
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: EMPLOYEE BENEFITS POLICY_IAgami_final
+Section Title: CHANGES TO BENEFITS:
+Content:
 The Company reserves the right to amend, modify, or discontinue any benefit program at any time with or without notice. For more information on any of the benefits offered by the Company, please get in touch with the Human Resources department.
 
 ================================================================================
@@ -212,6 +287,9 @@ Document : EMPLOYEE BENEFITS POLICY_IAgami_final
 Section  : POLICY REVIEW:
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: EMPLOYEE BENEFITS POLICY_IAgami_final
+Section Title: POLICY REVIEW:
+Content:
 This policy will be reviewed annually and updated to ensure it remains aligned with industry standards and company objectives.
 
 ================================================================================
@@ -220,6 +298,9 @@ Document : EMPLOYEE BENEFITS POLICY_IAgami_final
 Section  : CHANGE LOG:
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: EMPLOYEE BENEFITS POLICY_IAgami_final
+Section Title: CHANGE LOG:
+Content:
 Version Date Author Section Change Description 1.0 15-05-2020
 
 ================================================================================
@@ -236,6 +317,9 @@ Document : Employee_Dress_code_policy_iagami
 Section  : INTRODUCTION
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: Employee_Dress_code_policy_iagami
+Section Title: INTRODUCTION
+Content:
 1
 
 ================================================================================
@@ -244,6 +328,9 @@ Document : Employee_Dress_code_policy_iagami
 Section  : INTRODUCTION:
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: Employee_Dress_code_policy_iagami
+Section Title: INTRODUCTION:
+Content:
 At iAgami, we recognize the importance of maintaining a Work-Appropriate appearance while accommodating the practical needs of our IT professionals. This policy outlines our expectations regarding attire to ensure a consistent and corporate image across the organization. An Executive appearance fosters a positive work environment, projects a strong company image, and reinforces trust with clients and colleagues.
 
 ================================================================================
@@ -252,6 +339,9 @@ Document : Employee_Dress_code_policy_iagami
 Section  : 1. OBJECTIVE
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: Employee_Dress_code_policy_iagami
+Section Title: 1. OBJECTIVE
+Content:
 Our dress code policy aims to foster a professional environment that reflects efficiency, orderliness, and professionalism. It defines appropriate business attire for regular business operations and allows casual business attire on specified days to enhance employee morale, quality, communication, and productivity.
 
 ================================================================================
@@ -260,6 +350,9 @@ Document : Employee_Dress_code_policy_iagami
 Section  : 2. APPLICABILITY
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: Employee_Dress_code_policy_iagami
+Section Title: 2. APPLICABILITY
+Content:
 This policy applies to all employees, including interns, temporary employees, consultants, and visiting staff. We acknowledge the diversity of our workforce and accommodate cultural and religious considerations sensitively.
 
 ================================================================================
@@ -268,6 +361,9 @@ Document : Employee_Dress_code_policy_iagami
 Section  : 3. ENFORCEMENT
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: Employee_Dress_code_policy_iagami
+Section Title: 3. ENFORCEMENT
+Content:
 Enforcement of this policy is the responsibility of management and supervisory personnel. The application of common sense and good judgment is crucial to maintaining a dress practice conducive to our business environment. Employees can seek guidance from the Human Resources Department for clarification. 2
 
 ================================================================================
@@ -276,6 +372,9 @@ Document : Employee_Dress_code_policy_iagami
 Section  : 4. GENERAL ATTIRE REQUIREMENTS
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: Employee_Dress_code_policy_iagami
+Section Title: 4. GENERAL ATTIRE REQUIREMENTS
+Content:
 Employees are expected to maintain cleanliness and wear formal attire during weekdays. For client-facing roles, ties and shoes are mandatory for men, and women are expected to dress in formal Western or Indian attire. On Fridays, casual business attire is permitted unless otherwise specified.
 
 ================================================================================
@@ -284,6 +383,9 @@ Document : Employee_Dress_code_policy_iagami
 Section  : 5. DRESS CODE GUIDELINES
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: Employee_Dress_code_policy_iagami
+Section Title: 5. DRESS CODE GUIDELINES
+Content:
 - Men’s Dress Code and Grooming: o Opt for collared shirts, button-downs, or polos. o Wear dress pants, slacks, or chinos in neutral colors. o Leather shoes are preferred, but formal non-leather shoes (like loafers or dress shoes) are also acceptable. o Casual shoes, such as sneakers, are permitted on designated casual days (e.g., Fridays). o Maintain a clean-shaven look or keep facial hair neatly trimmed. o Hair should be above the shirt collar and neatly styled. -Women’s Dress Code and Grooming: o Choose dressy suits, skirts below the knee, or formal Indian attire. o Conservative makeup and minimal jewelry are encouraged. o Hair should be neatly styled and maintained. - General Guidelines for Men and Women: o Avoid clothing with offensive slogans or graphics. o Accessories and jewelry should be tasteful and professional. 3
 
 ================================================================================
@@ -292,6 +394,9 @@ Document : Employee_Dress_code_policy_iagami
 Section  : 6. CASUAL WEAR DAYS
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: Employee_Dress_code_policy_iagami
+Section Title: 6. CASUAL WEAR DAYS
+Content:
 Casual wear days are designated on Fridays, allowing employees to wear specified casual attire to promote a relaxed work environment while maintaining professionalism. Guidelines for casual attire include: - For Men: o Casual shirts, t-shirts, sweaters. o Denim or corduroy pants. o Conservative athletic or walking shoes. - For Women: o Casual shirts, t-shirts, kurtas, or casual dresses below the knee.
 
 ================================================================================
@@ -300,6 +405,9 @@ Document : Employee_Dress_code_policy_iagami
 Section  : 7. DISCIPLINARY ACTION
 Page     : 4
 --------------------------------------------------------------------------------
+Document Title: Employee_Dress_code_policy_iagami
+Section Title: 7. DISCIPLINARY ACTION
+Content:
 Employees are expected to use their judgment in maintaining appropriate attire. Management reserves the right to determine the appropriateness of attire. Continuous non-compliance may result in verbal warnings, written warnings, or other disciplinary actions up to termination. Please Note: This policy provides clear guidelines to ensure a professional yet comfortable workplace environment for all employees. 4
 
 ================================================================================
@@ -308,6 +416,9 @@ Document : Employee_Dress_code_policy_iagami
 Section  : CHANGE LOG:
 Page     : 4
 --------------------------------------------------------------------------------
+Document Title: Employee_Dress_code_policy_iagami
+Section Title: CHANGE LOG:
+Content:
 Version Date Author Section Change Description 1.0 2020-05-15
 
 ================================================================================
@@ -324,6 +435,9 @@ Document : LEAVE POLICY_Iagami_final (1)
 Section  : LEAVE POLICY
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: LEAVE POLICY_Iagami_final (1)
+Section Title: LEAVE POLICY
+Content:
 Leave is a privilege extended by the Company to its Employees, and not a right. It shall be the Company’s discretion to grant leave to all applicant employees, considering the exigencies of business and the need of the Employee at that time. The objectives of this Leave Policy are, to inform all employees of the company, regarding: - a. The current rules on the types of leave and their eligibility. b. Administration and Accounting of leave. c. Guidelines for Applicants, Granting Authorities, and Administrative Authorities. The said leave policy is subject to change from time to time, following the Company’s business objectives.
 
 ================================================================================
@@ -332,6 +446,9 @@ Document : LEAVE POLICY_Iagami_final (1)
 Section  : PURPOSE:
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: LEAVE POLICY_Iagami_final (1)
+Section Title: PURPOSE:
+Content:
 To communicate the rules and regulations and modes of application of leave to all the concerned employees.
 
 ================================================================================
@@ -340,6 +457,9 @@ Document : LEAVE POLICY_Iagami_final (1)
 Section  : OBJECTIVE:
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: LEAVE POLICY_Iagami_final (1)
+Section Title: OBJECTIVE:
+Content:
 We recognize and respect employees’ needs for leave time away from work. The Company strives to create and maintain a balanced work schedule for its employees and promotes quality of life through its varying leave programs. All permanent employees both full-time and part-time are eligible to receive leave. Temporary employees and employees undergoing probation periods are not eligible to receive leave time with pay from the Company. This Policy encourages its employees to take a break from work as this is essential for the health and efficiency of the Employees. The leave policy sets out the various types of leaves that an employee is eligible for and outlines the procedure for availing of the same.
 
 ================================================================================
@@ -348,6 +468,9 @@ Document : LEAVE POLICY_Iagami_final (1)
 Section  : LEAVE OUTLINE:
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: LEAVE POLICY_Iagami_final (1)
+Section Title: LEAVE OUTLINE:
+Content:
 Leave year is calculated from 1st Jan – 31st Dec of each year. Sanctioning of leave is solely at the discretion of the Management and decision concerning the same based on exigencies of business or the seriousness of the case. The different types of leaves covered under this policy are: o Casual Leave (CL) o Sick Leave (SL) o Earned Leave (EL) o Public Holiday o Restricted Holidays (RH) o Loss of pay (LOP) o Compensatory Off Every employee will be entitled to the following leaves:
 
 ================================================================================
@@ -356,6 +479,9 @@ Document : LEAVE POLICY_Iagami_final (1)
 Section  : 1. CASUAL LEAVE
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: LEAVE POLICY_Iagami_final (1)
+Section Title: 1. CASUAL LEAVE
+Content:
 Objective: To attend to personal exigencies arising out of unforeseen circumstances. Eligibility: o All Employees shall be eligible for 12 days of casual leave in every calendar year. o In the case of Employees who join the Company during the calendar year, the amount of casual leave shall be prorated. o Casual leave cannot be availed for less than half a day or more than 2 days at a time. Casual leave at a stretch beyond two days shall be treated as absent without leave or Loss of pay. o Holidays and weekly off days occurring during the period of Casual leave shall be counted as part of the leave. o Casual leave cannot be combined with any other type of leave. If an Employee takes casual leave and thereafter falls ill requiring sick leave the entire period shall be converted into sick leave. o All consultants and probationers are eligible for Casual leave of 1 day for every completed month of employment, subject to a maximum of 12 days of Casual Leave per year. Accumulation: Casual leave is non-cumulative and also non-encashable. Casual leave which has not been availed shall automatically lapse at the end of every calendar year. Administration: o Employee must obtain prior sanction before proceeding on casual leave. When this is not possible, they shall as soon as practicable, inform their reporting manager of their inability to attend duty, giving reasons thereof, and should obtain approval through the prescribed application form immediately on resuming duty. o Grant of casual leave shall be subject to exigencies of business and the discretion of the leave sanctioning authority.
 
 ================================================================================
@@ -364,6 +490,9 @@ Document : LEAVE POLICY_Iagami_final (1)
 Section  : 2. SICK LEAVE
 Page     : 4
 --------------------------------------------------------------------------------
+Document Title: LEAVE POLICY_Iagami_final (1)
+Section Title: 2. SICK LEAVE
+Content:
 Objective: To provide rest during the recovery of Employees from sickness. Eligibility: o Employee shall be eligible for 12 days of sick leave (inclusive of casual leave) in a calendar year. o Sick leave shall be prorated in the first and last year of service o Sick leave applications for more than 5 days must be supported by a certificate from a Registered Medical Practitioner. o Holidays and weekly off days occurring during the period of sick leave shall be counted as part of the leave. Accumulation: o Accumulation of sick leave is permissible up to 12 days. o Sick leave which is accumulated can be availed only after due application for the same is made by the Employee and special approval granted by the Reporting Head. o Sick leave is not encashable. Administration: o Employee absent from duty on account of sickness must immediately notify their immediate superior of their absence due to illness. o Immediately on resuming duty, the Employee must submit the leave application along with the medical certificate and fitness certificate issued by a registered medical practitioner. o Sick leave is a contingency leave and can be availed only when an Employee is disabled due to illness from performing his/her day-to- day duties. Sick leave should not be treated as a substitute for casual leave. Availing sick leave for purposes other than genuine sickness amounts to malingering, which shall be dealt with appropriately by the Reporting Lead/immediate superior. o Accumulated Sick leave shall be granted only in emergency cases after full Casual Leave/Earned leave of the applicant for the current year has been exhausted. o The Company reserves the right to obtain a second medical opinion in respect of an Employee who is found to be availing sick leaves frequently without sufficient grounds or any noticeable illness.
 
 ================================================================================
@@ -372,6 +501,9 @@ Document : LEAVE POLICY_Iagami_final (1)
 Section  : 4. Public Holidays
 Page     : 4
 --------------------------------------------------------------------------------
+Document Title: LEAVE POLICY_Iagami_final (1)
+Section Title: 4. Public Holidays
+Content:
 As declared every year, including but not limited to Pongal, Republic Day, Independence Day, Gandhi Jayanti, May Day, Diwali, and Christmas.
 
 ================================================================================
@@ -380,6 +512,9 @@ Document : LEAVE POLICY_Iagami_final (1)
 Section  : 5. Restricted Holidays
 Page     : 5
 --------------------------------------------------------------------------------
+Document Title: LEAVE POLICY_Iagami_final (1)
+Section Title: 5. Restricted Holidays
+Content:
 Objective: To attend religious festivals of their choice from the list of restricted holidays declared by the company every year. Eligibility: o All Employees shall be eligible to avail special casual leave on 2 restricted holidays per year. o Employees have to apply for special casual leave one week in advance to avail of a Restricted Holiday. o A Restricted Holiday List will be promulgated by the company along with the public holiday list, every year. Accumulation: o Restricted Holidays cannot be accumulated & encashed. Restricted holidays that are not availed shall automatically lapse at the end of every calendar year. Administration: o Employee must obtain prior CL approval before proceeding on RH. o Grant of RH shall be subject to exigencies of business and the discretion of the leave sanctioning authority.
 
 ================================================================================
@@ -388,6 +523,9 @@ Document : LEAVE POLICY_Iagami_final (1)
 Section  : 6. EARNED LEAVE (
 Page     : 6
 --------------------------------------------------------------------------------
+Document Title: LEAVE POLICY_Iagami_final (1)
+Section Title: 6. EARNED LEAVE (
+Content:
 This is designed to give the employees vacation periods for rest and to provide time off for personal needs. Eligibility: o All permanent employees are eligible to avail of earned leave after completion of 2 years of employment at the Company. o Earned leave is calculated for a period of one calendar year (Jan- Dec). Entitlement: o 12 days earned leave is allowed for each employee. Out of 12 days of leave credited for the year, any unpaid paid leave over 10 days at the end of the year will lapse automatically. Norms: o Holidays and weekly off may be prefixed or suffixed with Earned Leave. o Holidays and weekly off falling during the period of leave will be counted as leave. o The maximum unit of availing EL would be 5 days at a stretch. Encashment: o Earned Leave can be encashed at the end of the calendar year. The overall limit on encashment is 10 days only. Procedure: o All the employees are required to submit a leave plan to their respective head of the department stating when he/she intends to take paid leave. o Employees should apply for leave in the prescribed format, 5 days in advance to his/her departmental head. Prior approval of earned leave is mandatory. o All leave will be sanctioned by the departmental head and sent to the HR department for records.
 
 ================================================================================
@@ -396,6 +534,9 @@ Document : LEAVE POLICY_Iagami_final (1)
 Section  : 7. LOSS OF PAY (LOP)
 Page     : 6
 --------------------------------------------------------------------------------
+Document Title: LEAVE POLICY_Iagami_final (1)
+Section Title: 7. LOSS OF PAY (LOP)
+Content:
 o LOP can be applied by all employees, even employees under probation period when no other leave is available. o During the period of LOP, the employee is not entitled to any pay or allowance. o LOP can be implicated on disciplinary grounds concerning attendance by the management regardless of the availability of the other types of leave. o Sudden holidays will not be considered EL and if sick and casual leaves have been exhausted then such leave will result in loss of pay.
 
 ================================================================================
@@ -404,6 +545,9 @@ Document : LEAVE POLICY_Iagami_final (1)
 Section  : 8. COMPENSATORY OFF
 Page     : 7
 --------------------------------------------------------------------------------
+Document Title: LEAVE POLICY_Iagami_final (1)
+Section Title: 8. COMPENSATORY OFF
+Content:
 o If an employee is required to work on any important assignment on a National / Festival / Declared / weekly off day, he is eligible for Compensatory off on any other working day. o Official approval is required from the department head/management to work on such National / Festival / Declared / weekly off days. No compensatory offs will be entertained when an Employee works on these days without proper approval. o The compensatory off has to be availed within three months from the date worked. o Compensatory off when not availed within the stipulated period will lapse. o Only two days of compensatory offs can be combined and availed at a stretch. Miscellaneous o Any employee found misusing the leave policy may be subject to disciplinary action. o In case of any conflict or ambiguity in the leave policy, the decision of the HR department will be final. o The company reserves the right to amend or modify the leave policy at any time to align with business needs and legal requirements.
 
 ================================================================================
@@ -412,6 +556,9 @@ Document : LEAVE POLICY_Iagami_final (1)
 Section  : CHANGE LOG:
 Page     : 7
 --------------------------------------------------------------------------------
+Document Title: LEAVE POLICY_Iagami_final (1)
+Section Title: CHANGE LOG:
+Content:
 Version Date Author Section Change Description 1.0 15-05-2020
 
 ================================================================================
@@ -428,6 +575,9 @@ Document : Maternity Leave _iAgami
 Section  : 1. Purpose
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: Maternity Leave _iAgami
+Section Title: 1. Purpose
+Content:
 This policy aims to support women employees during maternity by providing statutory maternity leave, pay, and related benefits, while ensuring business continuity and compliance with Indian labor laws.
 
 ================================================================================
@@ -436,6 +586,9 @@ Document : Maternity Leave _iAgami
 Section  : 2. Scope
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: Maternity Leave _iAgami
+Section Title: 2. Scope
+Content:
 This policy applies to:  All female employees (permanent, probationary, or fixed-term) on the company’s payroll  Employees working at company offices or on customer projects  Employees who have worked at least 80 days in the 12 months preceding the expected delivery date
 
 ================================================================================
@@ -444,6 +597,9 @@ Document : Maternity Leave _iAgami
 Section  : 3. Statutory Framework
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: Maternity Leave _iAgami
+Section Title: 3. Statutory Framework
+Content:
 This policy is governed by:  The Maternity Benefit Act, 1961  Maternity Benefit (Amendment) Act, 2017  Applicable Tamil Nadu Shops & Establishments rules (where relevant) In case of any conflict, statutory provisions shall prevail.
 
 ================================================================================
@@ -452,6 +608,9 @@ Document : Maternity Leave _iAgami
 Section  : 4. Maternity Leave Entitlement
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: Maternity Leave _iAgami
+Section Title: 4. Maternity Leave Entitlement
+Content:
 4.1 First Two Children  Eligible employees are entitled to 26 weeks (182 days) of paid maternity leave  Up to 8 weeks may be availed before the expected delivery date  Remaining leave to be taken post-delivery 4.2 Third Child Onwards  Entitled to 12 weeks (84 days) of paid maternity leave  Up to 6 weeks pre-delivery and remaining post-delivery
 
 ================================================================================
@@ -460,6 +619,9 @@ Document : Maternity Leave _iAgami
 Section  : 5. Maternity Benefit (Pay)
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: Maternity Leave _iAgami
+Section Title: 5. Maternity Benefit (Pay)
+Content:
 Maternity leave shall be fully paid  Pay will be calculated based on average daily wages of the last 3 months  Includes: o Basic salary o Dearness Allowance (if applicable) o House Rent Allowance  Excludes: o Performance incentives o Variable pay / bonuses Payment will be processed as part of the regular payroll cycle.
 
 ================================================================================
@@ -468,6 +630,9 @@ Document : Maternity Leave _iAgami
 Section  : 6. Leave for Adoption
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: Maternity Leave _iAgami
+Section Title: 6. Leave for Adoption
+Content:
 6.1 Adoption  A woman adopting a child below 3 months of age is entitled to 12 weeks of paid maternity leave  Leave commences from the date the child is handed over 6.2 Surrogacy  A commissioning mother is entitled to 12 weeks of paid maternity leave  Leave starts from the date the child is handed over
 
 ================================================================================
@@ -476,6 +641,9 @@ Document : Maternity Leave _iAgami
 Section  : 7. Medical Bonus
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: Maternity Leave _iAgami
+Section Title: 7. Medical Bonus
+Content:
 If the company does not provide pre-natal and post-natal medical care, a medical bonus of ₹3,500 (or as revised by law) will be paid, as per statutory requirement.
 
 ================================================================================
@@ -484,6 +652,9 @@ Document : Maternity Leave _iAgami
 Section  : 8. Continuity of Service
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: Maternity Leave _iAgami
+Section Title: 8. Continuity of Service
+Content:
 Maternity leave will be treated as continuous service  No adverse impact on: o Appraisals o Promotions o Salary revisions o Seniority
 
 ================================================================================
@@ -492,6 +663,9 @@ Document : Maternity Leave _iAgami
 Section  : 9. Job Protection
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: Maternity Leave _iAgami
+Section Title: 9. Job Protection
+Content:
 No employee shall be dismissed, terminated, or discriminated against due to maternity  Any such action during maternity leave shall be void and unlawful
 
 ================================================================================
@@ -500,6 +674,9 @@ Document : Maternity Leave _iAgami
 Section  : 11. Misuse
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: Maternity Leave _iAgami
+Section Title: 11. Misuse
+Content:
 Any misuse or false claim under this policy may result in disciplinary action  HR will periodically review compliance with statutory requirements
 
 ================================================================================
@@ -516,6 +693,9 @@ Document : Non-compete and non-solicitation policy_iagami_final
 Section  : INTRODUCTION
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: Non-compete and non-solicitation policy_iagami_final
+Section Title: INTRODUCTION
+Content:
 1
 
 ================================================================================
@@ -524,6 +704,9 @@ Document : Non-compete and non-solicitation policy_iagami_final
 Section  : OBJECTIVE:
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: Non-compete and non-solicitation policy_iagami_final
+Section Title: OBJECTIVE:
+Content:
 The said policy has been framed to ensure the employees' loyalty towards the Company during employment and ethical work practices at all times. The Policy further aims to protect the business interests of the Company and prevent the Company's competitors from gaining access to the Company's confidential information. The Policy also aims to avoid its previous employees from soliciting its clients and existing employees for their advantage, thus affecting the business and performance of the Company. The purpose of this Policy is to protect the Company's legitimate business interests, including its confidential information, customer relationships, and goodwill.
 
 ================================================================================
@@ -532,6 +715,9 @@ Document : Non-compete and non-solicitation policy_iagami_final
 Section  : EFFECTIVENESS:
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: Non-compete and non-solicitation policy_iagami_final
+Section Title: EFFECTIVENESS:
+Content:
 The said policy shall become effective from the date the Employee commences Employment with the Company and shall remain effective till specified in the Policy.
 
 ================================================================================
@@ -540,6 +726,9 @@ Document : Non-compete and non-solicitation policy_iagami_final
 Section  : NON-COMPETE:
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: Non-compete and non-solicitation policy_iagami_final
+Section Title: NON-COMPETE:
+Content:
 The employees during the term of their employment with the Company cannot engage in any business activity which is competitive with the Company nor work for any company which competes with the Company. For two (2) years immediately following the termination of employment, The Employees will not, for themselves or on behalf of any other person or business enterprise, engage in any business activity that competes with the Company within 50 km of the registered office of the Company. 2  This includes starting a business, consulting with a competitor, or investing in a competitor. This includes soliciting or attempting to solicit any of the Company's Customers to purchase goods or services from a competitor, or to join a competitor as an employee.  Given the increase in remote work arrangements, the geographic scope of the non-compete clause may be adapted to account for employees who work remotely from locations outside the company's primary office location. The non-compete restrictions will apply to any geographic area where the employee has worked or provided services during their tenure with the company.
 
 ================================================================================
@@ -548,6 +737,9 @@ Document : Non-compete and non-solicitation policy_iagami_final
 Section  : 1. Non-Solicitation during Employment
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: Non-compete and non-solicitation policy_iagami_final
+Section Title: 1. Non-Solicitation during Employment
+Content:
 During the term of your employment, and for two (2) years immediately thereafter, the Employees cannot solicit any employee or independent contractor of the Company on behalf of any other business enterprise, nor shall the Employee induce any employee or independent contractor associated with the Company to terminate or breach an employment, contractual or other relationship with the Company.  The non-solicitation clause extends to digital platforms and social media networks. Employees are prohibited from using LinkedIn, Facebook, or any other social media channels to solicit the company's clients, employees, or contractors for competitive business activities during the non-solicitation period.  The policy includes specific provisions regarding the protection of digital data and confidential information. Employees are strictly prohibited from transferring, copying, or using any proprietary data or confidential information belonging to the company for the benefit of any competitor or personal gain, both during and after their employment. 3  In alignment with recent legal trends, the non-compete and non-solicitation clauses will be subject to limitations in terms of duration, geographic scope, and the scope of restricted activities to ensure they are reasonable and enforceable under local and international laws. Any restrictions will be balanced against the need to protect the company's legitimate business interests.
 
 ================================================================================
@@ -556,6 +748,9 @@ Document : Non-compete and non-solicitation policy_iagami_final
 Section  : 2. Soliciting Clients of the Company after Termination of Agreement
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: Non-compete and non-solicitation policy_iagami_final
+Section Title: 2. Soliciting Clients of the Company after Termination of Agreement
+Content:
 For two (2) years following the termination of employment with the company, the employee shall not directly or indirectly, disclose to any person, firm, or corporation the names or addresses of any of the customers or clients of the Company or any other information about them. Neither shall the employee call on, solicit, take away, or attempt to call on, solicit, nor did take away any customer/client of the Company on whom with whom the employee had become acquaint during the term of his/her employment with the Company, as the direct or indirect result of his/her employment with the Company. In cases where the employee voluntarily resigns, the company may offer to waive the non-compete clause, depending on the circumstances, to promote goodwill and maintain positive post-employment relationships. This waiver, if applicable, will be reviewed on a case-by-case basis and requires formal written approval from the company's legal department.
 
 ================================================================================
@@ -564,6 +759,9 @@ Document : Non-compete and non-solicitation policy_iagami_final
 Section  : 3. Injunctive Relief / Penalty
 Page     : 4
 --------------------------------------------------------------------------------
+Document Title: Non-compete and non-solicitation policy_iagami_final
+Section Title: 3. Injunctive Relief / Penalty
+Content:
 The Company hereby states that irreparable damage will be caused to the Company if the Employees breach the provisions of the said policy and monetary compensation shall not be adequate to compensate the damages caused. 4 Therefore, if an employee breaches any of the provisions of the said policy, then the Company shall be entitled to injunctive relief, in addition to any other remedies at law or equity, to enforce such provisions. Employees who are required to enter into a non-compete agreement will receive consideration in the form of additional benefits, bonuses, or access to special training opportunities as part of the agreement. This ensures that the non-compete clause is supported by adequate consideration and remains legally enforceable.
 
 ================================================================================
@@ -572,6 +770,9 @@ Document : Non-compete and non-solicitation policy_iagami_final
 Section  : CHANGE LOG:
 Page     : 4
 --------------------------------------------------------------------------------
+Document Title: Non-compete and non-solicitation policy_iagami_final
+Section Title: CHANGE LOG:
+Content:
 Version Date Author Section Change Description 1.0 15-05-2020
 
 ================================================================================
@@ -588,6 +789,9 @@ Document : PERFORMANCE MANAGEMENT AND APPRAISAL POLICY _ Iagami_final
 Section  : INTRODUCTION
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: PERFORMANCE MANAGEMENT AND APPRAISAL POLICY _ Iagami_final
+Section Title: INTRODUCTION
+Content:
 1
 
 ================================================================================
@@ -596,6 +800,9 @@ Document : PERFORMANCE MANAGEMENT AND APPRAISAL POLICY _ Iagami_final
 Section  : OBJECTIVE:
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: PERFORMANCE MANAGEMENT AND APPRAISAL POLICY _ Iagami_final
+Section Title: OBJECTIVE:
+Content:
 This policy has been implemented to manage employee performance and to ensure timely appraisals for employees who meet all work compliance expectations. Our performance management system aims to ensure that all employees are fully aware of their individual and Company goals. It also aims to promote talent management within the Company. Appraisals, both self-performed and initiated by management, are conducted periodically to show employee appreciation for their contributions. This policy seeks to ensure that the performance of each employee is assessed fairly, regularly, and in line with standard company norms, so that employees can trust the company’s Performance Management and Appraisal System.
 
 ================================================================================
@@ -604,6 +811,9 @@ Document : PERFORMANCE MANAGEMENT AND APPRAISAL POLICY _ Iagami_final
 Section  : APPLICABILITY:
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: PERFORMANCE MANAGEMENT AND APPRAISAL POLICY _ Iagami_final
+Section Title: APPLICABILITY:
+Content:
 The terms of this policy are applicable and enforceable to all full-time and part-time regular staff and employees. The performance of all applicable staff and employees will be assessed and evaluated annually by their respective supervisors.
 
 ================================================================================
@@ -612,6 +822,9 @@ Document : PERFORMANCE MANAGEMENT AND APPRAISAL POLICY _ Iagami_final
 Section  : PERFORMANCE APPRAISAL PROCEDURES AND SCHEDULE:
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: PERFORMANCE MANAGEMENT AND APPRAISAL POLICY _ Iagami_final
+Section Title: PERFORMANCE APPRAISAL PROCEDURES AND SCHEDULE:
+Content:
 Appraisals will be conducted by supervisors, managers, and appraisers for all employees in the organization. Supervisors and managers, as employees, are also subjected to appraisals from team members and higher authorities in the company, including the CEO, CFO, and Managing Directors. Appraisals will consider factors such as job skills, teamwork, additional competencies, contribution to the organization, results of given tasks, special achievements, social skills, and organizational citizenship behavior. 2 a) FOR ALL EMPLOYEES: i. Employees must adhere to the plan outlined in the Work Blueprint/Plan provided by the company or the terms of employment agreed upon at the time of their appointment. ii. Employees must complete a training program/course as per the terms of employment or Work Blueprint/Plan provided by the company. iii. Employees are obligated to submit self-evaluations every quarter, following the instructions and resources provided by their Supervisor/Manager/Appraiser. These self-evaluations should contain:  Employee goals,  Department/team goals,  Company goals,  work progress since the last evaluation,  Notable achievements,  Areas of improvement for the employee  Areas of improvement for the Supervisor  Areas of improvement in the Company systems iv. Employees must provide evidence of work performance as stated and specified in their self-evaluations. v. We are shifting towards a continuous feedback culture where managers and employees engage in regular check-ins rather than waiting for the annual appraisal. This approach ensures that performance issues are addressed promptly and employees receive ongoing support and recognition. vi. Recognizing the importance of employee well-being, performance appraisals will now consider factors such as work-life balance and mental health. Managers are encouraged to discuss these aspects during evaluations and provide necessary support or resources. 3 vii. Given the dynamic nature of the IT industry, employees will be allowed to adjust their goals throughout the appraisal period in response to changing business needs. This flexibility ensures that performance assessments remain relevant and aligned with current priorities. viii. As part of the appraisal process, employees will work with their managers to develop personalized career development plans. These plans will outline the skills and experiences needed to achieve career goals and ensure alignment with the company’s talent management strategy. b) FOR SUPERVISORS/MANAGERS/APPRAISERS i. All Supervisors, managers, and appraisers are required to provide their team members with the time frame for completion and the materials required for self-evaluation. ii. All Supervisors, managers, and appraisers must also adhere to the plan specified in the company’s Work blueprint/Plan or the terms of employment agreed upon during their promotion or appointment. iii. All Supervisors, managers, and appraisers must complete any training programs or courses as outlined in the company’s employment terms or work blueprint or plan. iv. All Supervisors, managers, and appraisers are required to submit a self-appraisal twice a year, covering the items listed in Section III (a) (iii). v. Furthermore, supervisors, managers, and appraisers should assess all members of their team group or department, taking into account the items mentioned in Section III (a). vi. They should also review their participation and efficiency in team efforts and group projects.
 
 ================================================================================
@@ -620,6 +833,9 @@ Document : PERFORMANCE MANAGEMENT AND APPRAISAL POLICY _ Iagami_final
 Section  : RIGHTS OF EMPLOYEES:
 Page     : 4
 --------------------------------------------------------------------------------
+Document Title: PERFORMANCE MANAGEMENT AND APPRAISAL POLICY _ Iagami_final
+Section Title: RIGHTS OF EMPLOYEES:
+Content:
 All employees have the right to request feedback on their performance regularly. 4
 
 ================================================================================
@@ -628,6 +844,9 @@ Document : PERFORMANCE MANAGEMENT AND APPRAISAL POLICY _ Iagami_final
 Section  : PENALTIES:
 Page     : 4
 --------------------------------------------------------------------------------
+Document Title: PERFORMANCE MANAGEMENT AND APPRAISAL POLICY _ Iagami_final
+Section Title: PENALTIES:
+Content:
 If an employee fails to meet the minimum performance standards, indicated by a score of less than 50% of their overall performance assessment, they will receive a warning. The warning will inform the employee of their low-performance grade and require them to improve their work performance in specified areas, as per the appraisal. If the employee receives a low score for the second time, such performance will be grounds for dismissal.
 
 ================================================================================
@@ -636,6 +855,9 @@ Document : PERFORMANCE MANAGEMENT AND APPRAISAL POLICY _ Iagami_final
 Section  : CHANGE LOG:
 Page     : 4
 --------------------------------------------------------------------------------
+Document Title: PERFORMANCE MANAGEMENT AND APPRAISAL POLICY _ Iagami_final
+Section Title: CHANGE LOG:
+Content:
 Version Date Author Section Change Description 1.0 15-05-2020
 
 ================================================================================
@@ -652,6 +874,9 @@ Document : RECRUITMENT POLICY_Iagami_final
 Section  : IDENTIFYING RECRUITMENT REQUIREMENTS:
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: RECRUITMENT POLICY_Iagami_final
+Section Title: IDENTIFYING RECRUITMENT REQUIREMENTS:
+Content:
 Our goal is to choose the most suitable candidate for the job based on demonstrated skills, knowledge, qualifications, and experience. We aim to recruit competent individuals to work with partners, communities, and other organizations in the middle office onboarding space. We prioritize diversity and inclusion in our recruitment process. Our goal is to create a diverse workforce that reflects different perspectives and backgrounds. We will actively seek candidates from underrepresented groups and ensure our recruitment practices are free from bias.
 
 ================================================================================
@@ -660,6 +885,9 @@ Document : RECRUITMENT POLICY_Iagami_final
 Section  : RECRUITMENT PLANNING:
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: RECRUITMENT POLICY_Iagami_final
+Section Title: RECRUITMENT PLANNING:
+Content:
 Recruitment is the responsibility of the Hiring Manager and will be initiated by him or her. The Hiring Manager must ensure budget availability for the position, which will be approved by the Directors before the recruitment process is initiated. Recruitment may be necessary to fill vacancies arising from any of the following circumstances: Resignation, Termination, or Death of a Staff Member. Opening of new offices or increased volume of operations. Expansion into new areas. Arising of a leave vacancy Internal Secondments of Staff. The Human Resource Department will ensure that all recruitment and overall personnel will be within the prevailing budgetary norms and ratios.
 
 ================================================================================
@@ -668,6 +896,9 @@ Document : RECRUITMENT POLICY_Iagami_final
 Section  : ADVERTISEMENT:
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: RECRUITMENT POLICY_Iagami_final
+Section Title: ADVERTISEMENT:
+Content:
 Vacancies will be announced internally and/or externally. The HR Department is responsible for all vacancy announcements. Unless specified otherwise, we will advertise for the most qualified candidates internally and externally to ensure a fair and transparent recruitment process. Both internal and external candidates will compete for the position simultaneously. The standard duration for displaying advertisements is a minimum of two weeks. However, in urgent recruitment cases, the display period can be shortened to one week with due approval of the Director. Advertisements will typically be posted on suitable websites tailored to the specific job opening. The job advertisement will include the job description as well as the essential and desirable requirements of the position.
 
 ================================================================================
@@ -676,6 +907,9 @@ Document : RECRUITMENT POLICY_Iagami_final
 Section  : HEADHUNTING:
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: RECRUITMENT POLICY_Iagami_final
+Section Title: HEADHUNTING:
+Content:
 When recruiting for leadership positions and specialized functional and thematic roles, it may be necessary to headhunt for the most appropriate candidates. If such candidates accept the Company's invitation to apply, they will be placed directly on the shortlist. However, they will go through the same formal selection process applicable to all other applicants.
 
 ================================================================================
@@ -684,6 +918,9 @@ Document : RECRUITMENT POLICY_Iagami_final
 Section  : MINIMUM STANDARDS:
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: RECRUITMENT POLICY_Iagami_final
+Section Title: MINIMUM STANDARDS:
+Content:
 Please note the following: Only candidates who meet the minimum eligibility criteria outlined in the job description and/or internal notifications will be considered. However, regarding exceptional candidates, human resources may relax the eligibility criteria in consultation with the Director concerned, if necessary. Our aim is to recruit individuals with the most appropriate competencies, including attitudes, behaviors, outlook, and values that align with the values of the organization.
 
 ================================================================================
@@ -692,6 +929,9 @@ Document : RECRUITMENT POLICY_Iagami_final
 Section  : GENERAL GUIDELINES:
 Page     : 5
 --------------------------------------------------------------------------------
+Document Title: RECRUITMENT POLICY_Iagami_final
+Section Title: GENERAL GUIDELINES:
+Content:
 For selection, the following guidelines will be observed: A well-defined job description (JD), will be shared with the panel members before the interview. Generally, a minimum of three candidates will be interviewed for a single position. All selection processes will be carried out by a panel consisting of at least 3 members, including the Hiring Manager, one HR person, and a third person from the same or other Department of the organization, of an appropriate level. The selection process may include a written test and a personal interview or just a personal interview, depending on the type of recruitment. If a candidate cannot be present for an interview but it’s in organizational interest to interview them, interviews can be conducted through via video conferencing or teleconferencing initially. An Assessment Sheet should be filled and signed by all members of the interview panel. At the end of the selection process, a report will be prepared and filed for future reference. HR will be present on selection panels for all staff of all grades. Where possible, the selection panels should include at least one woman member. HR will conduct reference checks for all the external candidates selected for a position. A minimum of three professional reference checks will be done for the successful candidate. The Employment Agreement issued to the selected candidate will contain the position details, grade, location, reporting relationship, job description, salary details, etc. Given the rise of remote and hybrid work models, the recruitment process will consider candidates who may work remotely or in hybrid settings. Job descriptions will specify whether the role is remote, hybrid, or on-site, and the selection process will accommodate remote interviews as needed. The onboarding process will include a structured program that helps new employees integrate into the company's culture and workflows, especially for remote employees. This will include virtual orientation sessions, access to an online knowledge base, and regular check-ins with HR during the first 90 days. We aim to enhance the candidate experience by ensuring timely communication throughout the recruitment process. Feedback will be provided to all candidate’s post-interview, and a dedicated point of contact will be assigned to address any queries candidates may have during the recruitment process. In recognition of the competitive nature of the IT industry, we will maintain a continuous recruitment approach for key roles, keeping an active pool of potential candidates ready for immediate hiring needs. This proactive strategy will ensure that the company can quickly respond to staffing demands.
 
 ================================================================================
@@ -700,6 +940,9 @@ Document : RECRUITMENT POLICY_Iagami_final
 Section  : CHANGE LOG:
 Page     : 5
 --------------------------------------------------------------------------------
+Document Title: RECRUITMENT POLICY_Iagami_final
+Section Title: CHANGE LOG:
+Content:
 Version Date Author Section Change Description 1.0 15-05-2020
 
 ================================================================================
@@ -716,6 +959,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : INTRODUCTION
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: INTRODUCTION
+Content:
 IAgami Technology Private Limited is committed to providing a safe and conducive work environment that enables employees to work without fear of prejudice, gender bias, or sexual harassment. Our policy is meticulously designed to safeguard the dignity of every employee by extensively addressing issues related to sexual harassment. It is in strict compliance with the Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013, and pertinent provisions of the Indian Penal Code, 1860.
 
 ================================================================================
@@ -724,6 +970,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : OBJECTIVES
 Page     : 1
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: OBJECTIVES
+Content:
 Our goal is to establish and maintain a work environment that is safe and secure, ensuring it is free from any form of sexual harassment. This includes implementing policies and practices that foster a culture of respect and dignity for all employees. We are committed to providing a comprehensive and effective redressal mechanism for addressing complaints of sexual harassment. This involves ensuring that all employees feel comfortable and empowered to report any incidents of harassment and receive prompt and fair resolution to their complaints. We are dedicated to promoting gender equality in the workplace and preventing any form of discrimination based on sex. This includes advocating for equal opportunities, fair treatment, and the eradication of gender-based biases and stereotypes. It is our priority to raise awareness about sexual harassment and provide ongoing education and training to all employees to promote understanding of appropriate workplace behavior, respect for boundaries, and the development of a supportive and inclusive work environment for everyone. Sexual harassment in the digital workplace is strictly prohibited. This includes unwelcome conduct through electronic communication channels such as emails, chats, social media, and video conferencing platforms. The policy extends to instances where employees face sexual harassment from third parties, such as clients, vendors, or visitors. The company will take the necessary steps to address and redress such grievances promptly.
 
 ================================================================================
@@ -732,6 +981,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : SEXUAL HARASSMENT
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: SEXUAL HARASSMENT
+Content:
 Sexual harassment includes any unwelcome sexually inclined behavior, whether directly or indirectly, such as: ✓ Physical contact and advances ✓ A demand or request for sexual favors ✓ Making sexually colored remarks ✓ Showing pornography ✓ Any other unwelcome physical, verbal, or non-verbal conduct of a sexual nature
 
 ================================================================================
@@ -740,6 +992,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : AGGRIEVED WOMAN
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: AGGRIEVED WOMAN
+Content:
 An aggrieved person refers to any individual, regardless of gender, who alleges to have been subjected to any act of sexual harassment. This includes permanent employees, temporary staff, interns, apprentices, and any person engaged by the company in any capacity.
 
 ================================================================================
@@ -748,6 +1003,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : WORKPLACE
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: WORKPLACE
+Content:
 The workplace includes: All offices, branches, or other premises where our company conducts business. Any place visited by the employee arising out of or during employment, including transportation provided by the employer. LEGISLATIVE FRAMEWORK - Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 The Act mandates: Prevention: Employers must create a safe working environment and take proactive measures to prevent sexual harassment. Prohibition: Employers must prohibit any form of sexual harassment at the workplace. Redressal: Employers must provide a mechanism for the redressal of complaints of sexual harassment, including the establishment of an Internal Complaints Committee (ICC).
 
 ================================================================================
@@ -756,6 +1014,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : INDIAN PENAL CODE, 1860
 Page     : 2
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: INDIAN PENAL CODE, 1860
+Content:
 Sexual harassment is recognized as a criminal offense under various sections of the Indian Penal Code, including: ✓ Section 354A: Outlines the offense of sexual harassment and the associated punishment. ✓ Section 354B: Pertains to assault or use of criminal force on a woman with the intent to disrobe. ✓ Section 354C: Pertains to voyeurism. ✓ Section 354D: Pertains to stalking. PREVENTION - Awareness and Training
 
 ================================================================================
@@ -764,6 +1025,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : 1. Training Programs
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: 1. Training Programs
+Content:
 employees about sexual harassment, their rights, and the redressal mechanism.
 
 ================================================================================
@@ -772,6 +1036,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : 2. Display of Information
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: 2. Display of Information
+Content:
 details of its members will be prominently displayed at all workplace locations. Internal Complaints Committee (ICC)
 
 ================================================================================
@@ -780,6 +1047,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : 1. Composition
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: 1. Composition
+Content:
 A Presiding Officer, who is a senior woman employee. At least two members from amongst employees, committed to the cause of women or have experience in social work or legal knowledge. One external member from an NGO or a person familiar with issues related to sexual harassment.
 
 ================================================================================
@@ -788,6 +1058,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : 2. Tenure
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: 2. Tenure
+Content:
 of their nomination.
 
 ================================================================================
@@ -796,6 +1069,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : 3. Roles and Responsibilities
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: 3. Roles and Responsibilities
+Content:
 To receive and redress complaints of sexual harassment. To ensure confidentiality during the process of inquiry. To recommend actions based on the findings of the inquiry. PROHIBITION - Code of Conduct All employees are expected to adhere to a code of conduct that promotes respect, dignity, and equality. Any form of sexual harassment, as defined above, is strictly prohibited and will not be tolerated. Reporting Mechanism Employees are encouraged to intervene or report if they witness any form of sexual harassment in the workplace. Bystander intervention is a critical aspect of maintaining a safe and respectful work environment
 
 ================================================================================
@@ -804,6 +1080,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : 1. Complaint Lodging
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: 1. Complaint Lodging
+Content:
 from the date of the incident. This period can be extended if the ICC is satisfied with the reasons for the delay.
 
 ================================================================================
@@ -812,6 +1091,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : 2. Assistance
 Page     : 3
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: 2. Assistance
+Content:
 necessary assistance.
 
 ================================================================================
@@ -820,6 +1102,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : REDRESSAL - INQUIRY PROCESS
 Page     : 4
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: REDRESSAL - INQUIRY PROCESS
+Content:
 Receipt of Complaint: Upon receipt of the complaint, the ICC will acknowledge it and inform the accused about the complaint. Conciliation: Before initiating an inquiry, the ICC may try to settle the matter between the aggrieved woman and the respondent through conciliation, provided that no monetary settlement is made as a basis of conciliation. Inquiry: If conciliation is not possible or if the aggrieved woman insists, the ICC will proceed with an inquiry. The inquiry will be completed within 90 days. Principles of Natural Justice: Both parties will be allowed to be heard, and a copy of the findings will be provided to both parties to submit their responses.
 
 ================================================================================
@@ -828,6 +1113,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : ACTIONS AND RECOMMENDATIONS
 Page     : 4
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: ACTIONS AND RECOMMENDATIONS
+Content:
 If Found Guilty: If the respondent is found guilty, the ICC may recommend actions such as: ✓ Written apology ✓ Warning ✓ Reprimand or censure ✓ Withholding of promotion or pay rise ✓ Termination of employment ✓ Counseling sessions ✓ Community service If Found Not Guilty: If the respondent is found not guilty, no action will be taken against them. However, if the complaint is found to be malicious or made with false evidence, the ICC may recommend actions against the complainant.
 
 ================================================================================
@@ -836,6 +1124,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : APPEAL
 Page     : 4
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: APPEAL
+Content:
 Any party aggrieved by the recommendations of the ICC or non-implementation of such recommendations may appeal to the appropriate authority as per the rules within 90 days from the date of recommendations.
 
 ================================================================================
@@ -844,6 +1135,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : CONFIDENTIALITY
 Page     : 4
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: CONFIDENTIALITY
+Content:
 All complaints, investigations, and findings will be kept confidential. The identity of the complainant, respondent, and witnesses will not be disclosed except where required under law or for conducting an investigation.
 
 ================================================================================
@@ -852,6 +1146,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : PROTECTION AGAINST RETALIATION
 Page     : 4
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: PROTECTION AGAINST RETALIATION
+Content:
 Our Company strictly prohibits any form of retaliation against employees who report incidents of sexual harassment or participate in the inquiry process. Any act of retaliation will be subject to disciplinary action.
 
 ================================================================================
@@ -860,6 +1157,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : MONITORING AND REVIEW
 Page     : 5
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: MONITORING AND REVIEW
+Content:
 Annual Report: The ICC will prepare an annual report and submit it to the employer and the District Officer. The report will include details of the number of cases filed and their disposal. Policy Review: This policy will be reviewed regularly to ensure it remains effective and relevant. Changes will be made as required by law or organizational needs.
 
 ================================================================================
@@ -868,6 +1168,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : RESPONSIBILITIES OF EMPLOYEES
 Page     : 5
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: RESPONSIBILITIES OF EMPLOYEES
+Content:
 Adherence: Employees must adhere to this policy and the associated guidelines. Reporting: Employees are encouraged to report any incident of sexual harassment they witness or experience. Cooperation: Employees must cooperate with the ICC during inquiries and investigations.
 
 ================================================================================
@@ -876,6 +1179,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : RESPONSIBILITIES OF MANAGEMENT
 Page     : 5
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: RESPONSIBILITIES OF MANAGEMENT
+Content:
 Implementation: Management must ensure the implementation of this policy. Support: Management must support the ICC in conducting inquiries and implementing recommendations. Awareness: Management must ensure regular training and awareness programs are conducted.
 
 ================================================================================
@@ -884,6 +1190,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : CONCLUSION
 Page     : 6
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: CONCLUSION
+Content:
 Our firm is committed to fostering a work environment free from sexual harassment. By adhering to this policy, we ensure the dignity and respect of all employees, thereby contributing to a positive and productive workplace. Any employee found violating this policy will face strict disciplinary action. For further information or clarification, employees may contact the HR department or the ICC.
 
 ================================================================================
@@ -892,6 +1201,9 @@ Document : Sexual_Harrasment_Policy_Iagami
 Section  : CHANGE LOG:
 Page     : 6
 --------------------------------------------------------------------------------
+Document Title: Sexual_Harrasment_Policy_Iagami
+Section Title: CHANGE LOG:
+Content:
 Version Date Author Section Change Description 1.0 15-05-2020
 
 ================================================================================

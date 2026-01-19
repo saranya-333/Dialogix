@@ -1,94 +1,192 @@
-# retriever.py
-
-import json
-import faiss
-import numpy as np
 import requests
-from sentence_transformers import SentenceTransformer
 import tiktoken
 
-# -----------------------------
-# CONFIG
-# -----------------------------
+from langchain_chroma import Chroma
+from langchain_huggingface import HuggingFaceEmbeddings
+from sentence_transformers import CrossEncoder
+from prompt import rewriter_prompt,answer_prompt
+
 MODEL_NAME = "all-MiniLM-L6-v2"
-EMBED_DIM = 384
-TOP_K = 10
+TOP_K = 20               # retrieval candidates
+RERANK_TOP_N = 7        # chunks sent to LLM (rank-based)
+CHROMA_DIR = "./chroma_store"
+COLLECTION_NAME = "hr_policies"
 
-INDEX_FILE = "vector.index"
-META_FILE = "metadata.json"
-
-# Local LLM config (as given)
 LLM_URL = "http://aigateway.iagami.com:4000/v1/chat/completions"
-LLM_MODEL = "oci/google.gemini-2.5-flash-lite"
-# LLM_MODEL = "oci/google.gemini-2.5-flash"
-# LLM_MODEL = "oci/xai.grok-4"
-LLM_API_KEY = "sk-aphZ6iCssH6F97y_wj_3Hw"
-LLM_API_KEY1 = "sk-iaga2024mi2025tech"
+LLM_MODEL = "oci/google.gemini-2.5-flash"
+LLM_API_KEY = "sk-aphZ6iCssH6F97y_wj_3Hw"  
 
-model = SentenceTransformer(MODEL_NAME)
+embeddings = HuggingFaceEmbeddings(
+    model_name=MODEL_NAME,
+    encode_kwargs={"normalize_embeddings": True}
+)
 
 # -----------------------------
-# LOAD VECTOR STORE
+# LOAD CHROMA VECTOR STORE
 # -----------------------------
-def load_store():
-    index = faiss.read_index(INDEX_FILE)
-    with open(META_FILE, "r", encoding="utf-8") as f:
-        metadata = json.load(f)
-    return index, metadata
+vectorstore = Chroma(
+    persist_directory=CHROMA_DIR,
+    collection_name=COLLECTION_NAME,
+    embedding_function=embeddings,
+    collection_metadata={"hnsw:space": "cosine"}  # use cosine similarity
+)
+
+
+reranker = CrossEncoder(
+    "cross-encoder/ms-marco-MiniLM-L-6-v2"
+)
+
+
+def rewrite_query_ai(query: str) -> str:
+    rewrite_prompt =f"""
+    {rewriter_prompt}
+    
+    
+User query:
+{query}
+
+Rewritten query:
+""".strip()
+
+    payload = {
+        "model": LLM_MODEL,
+        "messages": [
+            {"role": "user", "content": rewrite_prompt}
+        ],
+        "temperature": 0
+    }
+
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {LLM_API_KEY}"
+    }
+
+    try:
+        response = requests.post(
+            LLM_URL,
+            headers=headers,
+            json=payload,
+            timeout=30
+        )
+        response.raise_for_status()
+        rewritten = response.json()["choices"][0]["message"]["content"].strip()
+        return rewritten if rewritten else query
+    except Exception:
+        return query
+
+
+
 
 def is_overview_query(query: str) -> bool:
     overview_keywords = [
         "explain",
         "overview",
         "summary",
-        "what is",
         "tell me about",
         "describe"
     ]
-    q = query.lower()
-    return any(k in q for k in overview_keywords)
+    return any(k in query.lower() for k in overview_keywords)
 
 # -----------------------------
-# RETRIEVAL
+# RETRIEVAL (NO FILTERING)
 # -----------------------------
-def retrieve(query, index, metadata):
+def retrieve(query: str):
+    # 🔹 OVERVIEW QUERY (STRUCTURAL)
     if is_overview_query(query):
-        # Find the most relevant document first
-        q_vec = model.encode([query], normalize_embeddings=True).astype("float32")
-        scores, indices = index.search(q_vec, 1)
-        top_chunk = metadata[indices[0][0]]
-        doc_name = top_chunk["document_title"]
+        print("\n OVERVIEW QUERY DETECTED\n")
 
-        # Fetch ALL chunks from the same document
-        results = [
-            m for m in metadata
-            if m["document_title"] == doc_name
-        ]
+        docs_with_scores = vectorstore.similarity_search_with_score(query, k=1)
+        if not docs_with_scores:
+            return []
 
-        print(f"📄 Overview query detected. Returning {len(results)} chunks from document: {doc_name}")
-        return results
+        doc, score = docs_with_scores[0]
+        print(f"Top document score (distance): {score:.4f}\n")
 
-    # else → normal semantic retrieval
-    q_vec = model.encode([query], normalize_embeddings=True).astype("float32")
-    scores, indices = index.search(q_vec, TOP_K)
+        document_title = doc.metadata.get("document_title")
 
-    return [metadata[i] for i in indices[0] if i != -1]
+        all_docs = vectorstore.get(
+            where={"document_title": document_title}
+        )
 
+        chunks = []
+        for content, meta in zip(all_docs["documents"], all_docs["metadatas"]):
+            chunks.append({
+                "document_title": meta["document_title"],
+                "section_title": meta["section_title"],
+                "page_number": meta["page_number"],
+                "content": content
+            })
+
+        print(f" Returning {len(chunks)} chunks from document: {document_title}\n")
+        return chunks
+
+    # 🔹 SPECIFIC QUERY
+    
+    
+    docs_with_scores = vectorstore.similarity_search_with_score(query, k=TOP_K)
+
+    print("\n========= RETRIEVED CHUNKS (NO FILTERING) =========\n")
+
+    chunks = []
+    for idx, (d, score) in enumerate(docs_with_scores, start=1):
+        print(f"CHUNK #{idx}")
+        print(f"Vector Score : {score:.4f} (distance)")
+        print(f"Document     : {d.metadata.get('document_title')}")
+        print(f"Section      : {d.metadata.get('section_title')}")
+        print(f"Page         : {d.metadata.get('page_number')}")
+        print("-" * 70)
+        print(d.page_content)
+        print("-" * 70 + "\n")
+
+        chunks.append({
+            "document_title": d.metadata["document_title"],
+            "section_title": d.metadata["section_title"],
+            "page_number": d.metadata["page_number"],
+            "content": d.page_content,
+            "vector_score": score
+        })
+
+    print("==================================================\n")
+    return chunks
 
 # -----------------------------
-# LLM CALL (LOCAL)
+# RERANK CHUNKS (RANK-BASED ONLY)
+# -----------------------------
+def rerank_chunks(query: str, chunks: list, top_n: int):
+    if not chunks:
+        return chunks
+
+    pairs = [(query, c["content"]) for c in chunks]
+    scores = reranker.predict(pairs)
+
+    for c, score in zip(chunks, scores):
+        c["rerank_score"] = float(score)
+
+    chunks = sorted(
+        chunks,
+        key=lambda x: x["rerank_score"],
+        reverse=True
+    )
+
+    return chunks[:top_n]
+
+# -----------------------------
+# TOKEN COUNT
+# -----------------------------
+def count_tokens(text: str) -> int:
+    encoding = tiktoken.get_encoding("cl100k_base")
+    return len(encoding.encode(text))
+
+# -----------------------------
+# LLM CALL
 # -----------------------------
 def call_llm(prompt: str) -> str:
     payload = {
         "model": LLM_MODEL,
         "messages": [
-            {
-                "role": "user",
-                "content": prompt
-            }
+            {"role": "user", "content": prompt}
         ],
-        "temperature": 2
-         
+        "temperature": 1
     }
 
     headers = {
@@ -104,26 +202,32 @@ def call_llm(prompt: str) -> str:
     )
 
     response.raise_for_status()
-    data = response.json()
+    return response.json()["choices"][0]["message"]["content"]
 
-    return data["choices"][0]["message"]["content"]
-
-
-def count_tokens(text: str) -> int:
-    """
-    Approximate token count using cl100k_base.
-    Works safely for Gemini, Claude, OpenAI models.
-    """
-    encoding = tiktoken.get_encoding("cl100k_base")
-    return len(encoding.encode(text))
 # -----------------------------
-# RAG ANSWERING
+# RAG ANSWERING (PROMPT UNCHANGED)
 # -----------------------------
-def answer_question(query, index, metadata):
-    chunks = retrieve(query, index, metadata)
+def answer_question(query: str):
+    rewritten_query = rewrite_query_ai(query)
+    print(f"\n Rewritten Query: {rewritten_query}\n")
+    chunks = retrieve(rewritten_query)
 
     if not chunks:
         return "I could not find this information in the provided documents."
+
+
+    chunks = rerank_chunks(rewritten_query, chunks, RERANK_TOP_N)
+
+    print("\n========= RERANKED CHUNKS (SENT TO LLM) =========\n")
+    for i, c in enumerate(chunks, start=1):
+        print(f"CHUNK #{i}")
+        print(f"Rerank Score : {c['rerank_score']:.4f}")
+        print(f"Document     : {c['document_title']}")
+        print(f"Section      : {c['section_title']}")
+        print(f"Page         : {c['page_number']}")
+        print("-" * 70)
+        print(c["content"])
+        print("-" * 70 + "\n")
 
     context = "\n\n".join(
         f"[Document: {c['document_title']} | "
@@ -133,82 +237,35 @@ def answer_question(query, index, metadata):
     )
 
     prompt = f"""
-You are an internal HR knowledge assistant.
-
-Your responsibilities:
-1. Understand the user’s intent from the question.
-2. Use the provided context as the ONLY source of knowledge.
-3. Reason over the HR policies to produce a clear, policy-aligned answer.
-
-HOW TO INTERPRET HR POLICIES:
-- HR policies define entitlements, eligibility, limits, and calculation rules.
-- If a policy explicitly mentions proration, monthly entitlement, or proportional allocation,
-  you MAY logically calculate or explain outcomes based on the policy text.
-- Logical conclusions are allowed IF they are directly supported by policy statements
-  (for example: “1 day per completed month”, “prorated for the calendar year”).
-- Clearly explain the reasoning behind such conclusions.
-- If the policy defines a calendar period (for example, “Jan–Dec”),
-  you MAY count completed months within that period to explain
-  prorated or monthly-based entitlements.
-- You may assume standard calendar months only when the policy
-  explicitly defines the leave year.
-- If the policy provides a clear calculation basis (for example:
-  “1 day per completed month” or “prorated for the calendar year”),
-  you MUST explain how the calculation works using a simple example
-  (without inventing new rules).
-- HR policies may define a rule across multiple clauses or sections.
-  If a calculation or entitlement can be derived only by combining
-  two or more policy statements, you MUST synthesize them and
-  provide the resulting explanation.
-
-
-WHAT NOT TO DO:
-- Do NOT use external laws, assumptions, or common HR practices not stated in the policy.
-- Do NOT invent numbers or rules that are not supported by the policy text.
-- Do NOT ignore relevant sections that allow proportional or calculated outcomes.
-
-HANDLING PARTIAL OR MISSING INFORMATION:
-- If the policy explicitly defines a rule → apply it logically.
-- If the policy is silent or ambiguous → clearly state the limitation.
-- Absence of a policy should be treated as “not provided”.
-
-
-
-ONLY respond with:
-"I could not find this information in the provided documents."
-IF AND ONLY IF:
-- The policy provides no direct rule,
-- AND no reasonable, policy-supported conclusion can be drawn.
+     {answer_prompt}
 
 Context:
 {context}
 
 Question:
-{query}
+{rewritten_query}
 
 Answer:
 """.strip()
-    print(f"🧠 Prompt to LLM: {prompt}")
-    print(f"🧠 Prompt tokens: {count_tokens(prompt)}")
+
+    print(f" Prompt tokens: {count_tokens(prompt)}")
     return call_llm(prompt)
 
 # -----------------------------
-# MAIN
+# MAIN LOOP
 # -----------------------------
 if __name__ == "__main__":
-    index, metadata = load_store()
-
-    print("🤖 RAG Retriever ready (type 'exit' to quit)")
+    print(" LangChain + Chroma RAG Retriever with Cross-Encoder Reranker ready")
 
     while True:
         query = input("\nAsk a question: ").strip()
-        if query.lower() == "exit" or query.lower() == "q":
+        if query.lower() in {"exit", "q"}:
             break
 
         try:
-            answer = answer_question(query, index, metadata)
-            print("\n✅ Answer:\n")
+            answer = answer_question(query)
+            print("\n Answer:\n")
             print(answer)
         except Exception as e:
-            print("\n❌ Error during LLM call:")
+            print("\n Error:")
             print(str(e))
