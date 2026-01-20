@@ -1,5 +1,8 @@
+import json
 import requests
 import tiktoken
+import time
+from functools import wraps
 
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -7,13 +10,30 @@ from sentence_transformers import CrossEncoder
 from prompt import rewriter_prompt,answer_prompt
 
 MODEL_NAME = "all-MiniLM-L6-v2"
+
+# ========================================
+# EXECUTION TIME DECORATOR
+# ========================================
+def timer_decorator(func):
+    """Decorator to measure and print the execution time of a function."""
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        print(f"\n⏱️  {func.__name__} execution time: {elapsed_time:.4f} seconds\n")
+        return result
+    return wrapper
+
+
 TOP_K = 20               # retrieval candidates
 RERANK_TOP_N = 7        # chunks sent to LLM (rank-based)
 CHROMA_DIR = "./chroma_store"
 COLLECTION_NAME = "hr_policies"
 
 LLM_URL = "http://aigateway.iagami.com:4000/v1/chat/completions"
-LLM_MODEL = "oci/google.gemini-2.5-flash"
+LLM_MODEL = "oci/google.gemini-2.5-flash-lite"
 LLM_API_KEY = "sk-aphZ6iCssH6F97y_wj_3Hw"  
 
 embeddings = HuggingFaceEmbeddings(
@@ -204,9 +224,67 @@ def call_llm(prompt: str) -> str:
     response.raise_for_status()
     return response.json()["choices"][0]["message"]["content"]
 
+def call_llm_stream(prompt: str):
+    """
+    Streams output from OpenAI-compatible /v1/chat/completions endpoint.
+    Prints token chunks as they arrive.
+    """
+    payload = {
+        "model": LLM_MODEL,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 2,
+        "stream": True,
+    }
+
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {LLM_API_KEY}",
+    }
+
+    with requests.post(
+        LLM_URL,
+        headers=headers,
+        json=payload,
+        stream=True,
+        timeout=60,
+    ) as response:
+        response.raise_for_status()
+
+        # Each line is typically: b"data: {...}\n"
+        for line in response.iter_lines(decode_unicode=True):
+            if not line:
+                continue
+
+            # Expected format: "data: {...}"
+            if line.startswith("data: "):
+                data_str = line[len("data: ") :].strip()
+
+                # Stream end signal
+                if data_str == "[DONE]":
+                    break
+
+                try:
+                    data_json = json.loads(data_str)
+                except json.JSONDecodeError:
+                    continue
+
+                # OpenAI-style streaming delta
+                delta = (
+                    data_json.get("choices", [{}])[0]
+                    .get("delta", {})
+                    .get("content", "")
+                )
+
+                if delta:
+                    yield delta
+
+
+
+
 # -----------------------------
 # RAG ANSWERING (PROMPT UNCHANGED)
 # -----------------------------
+@timer_decorator
 def answer_question(query: str):
     rewritten_query = rewrite_query_ai(query)
     print(f"\n Rewritten Query: {rewritten_query}\n")
@@ -248,9 +326,15 @@ Question:
 Answer:
 """.strip()
 
-    print(f" Prompt tokens: {count_tokens(prompt)}")
-    return call_llm(prompt)
+    print(f"\n🧠 Prompt tokens: {count_tokens(prompt)}")
+    print("\n✅ Answer (streaming):\n")
 
+    # Stream tokens
+    for chunk in call_llm_stream(prompt):
+        yield chunk
+    
+    # print(f" Prompt tokens: {count_tokens(prompt)}")
+    # return call_llm(prompt)
 # -----------------------------
 # MAIN LOOP
 # -----------------------------
@@ -261,11 +345,17 @@ if __name__ == "__main__":
         query = input("\nAsk a question: ").strip()
         if query.lower() in {"exit", "q"}:
             break
-
         try:
-            answer = answer_question(query)
-            print("\n Answer:\n")
-            print(answer)
+            for token in answer_question(query):
+                print(token, end="", flush=True)
+            print("\n")  # newline after streaming completes
         except Exception as e:
-            print("\n Error:")
+            print("\n❌ Error during LLM call:")
             print(str(e))
+        # try:
+        #     answer = answer_question(query)
+        #     print("\n Answer:\n")
+        #     print(answer)
+        # except Exception as e:
+        #     print("\n Error:")
+        #     print(str(e))
