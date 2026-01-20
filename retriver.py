@@ -1,6 +1,7 @@
 import requests
 import tiktoken
-
+import time
+from functools import wraps
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from sentence_transformers import CrossEncoder
@@ -13,7 +14,7 @@ CHROMA_DIR = "./chroma_store"
 COLLECTION_NAME = "hr_policies"
 
 LLM_URL = "http://aigateway.iagami.com:4000/v1/chat/completions"
-LLM_MODEL = "oci/google.gemini-2.5-flash"
+LLM_MODEL = "oci/google.gemini-2.5-flash-lite"
 LLM_API_KEY = "sk-aphZ6iCssH6F97y_wj_3Hw"  
 
 embeddings = HuggingFaceEmbeddings(
@@ -21,9 +22,6 @@ embeddings = HuggingFaceEmbeddings(
     encode_kwargs={"normalize_embeddings": True}
 )
 
-# -----------------------------
-# LOAD CHROMA VECTOR STORE
-# -----------------------------
 vectorstore = Chroma(
     persist_directory=CHROMA_DIR,
     collection_name=COLLECTION_NAME,
@@ -31,11 +29,22 @@ vectorstore = Chroma(
     collection_metadata={"hnsw:space": "cosine"}  # use cosine similarity
 )
 
-
 reranker = CrossEncoder(
     "cross-encoder/ms-marco-MiniLM-L-6-v2"
 )
 
+def timer_funtion(func):
+    @wraps(func)
+    def wrapper(*args,**kwargs):
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        print(f"Function '{func.__name__}' executed in {elapsed_time:.2f} seconds.")
+        return result
+    return wrapper
+    
+    
 
 def rewrite_query_ai(query: str) -> str:
     rewrite_prompt =f"""
@@ -73,8 +82,6 @@ Rewritten query:
         return rewritten if rewritten else query
     except Exception:
         return query
-
-
 
 
 def is_overview_query(query: str) -> bool:
@@ -207,6 +214,7 @@ def call_llm(prompt: str) -> str:
 # -----------------------------
 # RAG ANSWERING (PROMPT UNCHANGED)
 # -----------------------------
+@timer_funtion
 def answer_question(query: str):
     rewritten_query = rewrite_query_ai(query)
     print(f"\n Rewritten Query: {rewritten_query}\n")
@@ -243,7 +251,7 @@ Context:
 {context}
 
 Question:
-{rewritten_query}
+{query}
 
 Answer:
 """.strip()
