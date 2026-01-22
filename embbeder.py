@@ -124,6 +124,73 @@ Content:
     return documents
 
 # -----------------------------
+# PDF TITLE EXTRACTION
+# -----------------------------
+def get_pdf_title(pdf_path: str) -> str:
+    """
+    Extracts title from PDF by getting only the first line at the top.
+    """
+    doc = fitz.open(pdf_path)
+    
+    # Metadata first
+    metadata_title = doc.metadata.get("title", None)
+    if metadata_title:
+        metadata_title = metadata_title.strip()
+        # Clean up metadata prefixes
+        if "Microsoft Word" in metadata_title:
+            idx = metadata_title.find("Microsoft Word -")
+            if idx >= 0:
+                metadata_title = metadata_title[idx + len("Microsoft Word -"):].strip()
+        elif "Adobe PDF" in metadata_title:
+            idx = metadata_title.find("Adobe PDF -")
+            if idx >= 0:
+                metadata_title = metadata_title[idx + len("Adobe PDF -"):].strip()
+        doc.close()
+        return metadata_title
+    
+    page = doc[0]
+    blocks = page.get_text("dict")["blocks"]
+    spans = []
+    
+    # Collect all spans with position and font info
+    for block in blocks:
+        if "lines" in block:
+            for line in block["lines"]:
+                for span in line["spans"]:
+                    text = span["text"].strip()
+                    if text:  # Only non-empty spans
+                        spans.append({
+                            "text": text,
+                            "size": span["size"],
+                            "bbox": span["bbox"],  # (x0, y0, x1, y1)
+                        })
+    
+    if not spans:
+        doc.close()
+        return "No title found"
+    
+    # Sort all spans by vertical position (top to bottom)
+    spans.sort(key=lambda s: s["bbox"][1])
+    
+    # Get only the first 1-2 lines (within 20 pixels of the first span)
+    first_y = spans[0]["bbox"][1]
+    first_line_spans = [s for s in spans if abs(s["bbox"][1] - first_y) <= 20]
+    
+    best_title = " ".join(s["text"] for s in first_line_spans).strip()
+    
+    # Clean up common PDF metadata prefixes
+    if "Microsoft Word" in best_title:
+        idx = best_title.find("Microsoft Word -")
+        if idx >= 0:
+            best_title = best_title[idx + len("Microsoft Word -"):].strip()
+    elif "Adobe PDF" in best_title:
+        idx = best_title.find("Adobe PDF -")
+        if idx >= 0:
+            best_title = best_title[idx + len("Adobe PDF -"):].strip()
+    
+    doc.close()
+    return best_title
+# -----------------------------
 # LOAD ALL PDFs
 # -----------------------------
 def load_all_documents(folder_path):
@@ -134,7 +201,9 @@ def load_all_documents(folder_path):
             continue
 
         pdf_path = os.path.join(folder_path, file_name)
-        document_title = os.path.splitext(file_name)[0]
+        document_title = get_pdf_title(pdf_path)
+        if not document_title or document_title == "No title found":
+            document_title = os.path.splitext(file_name)[0]
 
         print(f" Processing: {file_name}")
 

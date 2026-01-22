@@ -19,3 +19,6 @@ torch>=2.0.0
 # Utilities (installed automatically, but safe to list)
 numpy>=1.24.0
 tqdm>=4.66.0
+
+gspread==5.1.1
+oauth2client==4.1.3
