@@ -12,9 +12,7 @@ PyMuPDF==1.23.26
 
 # Embeddings (local, free)
 sentence-transformers==2.6.1
-torch>=2.0.0
 
-# Vector database
 
 # Utilities (installed automatically, but safe to list)
 numpy>=1.24.0

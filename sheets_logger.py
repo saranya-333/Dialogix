@@ -24,7 +24,7 @@ def log_answer(question: str, answer: str):
             question,
             answer
         ])
-        print(" Logged to Google Sheets")
+        # print(" Logged to Google Sheets")
 
     except Exception as e:
         print("Sheets logging failed (non-fatal)")

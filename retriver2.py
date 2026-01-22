@@ -2,19 +2,29 @@ import json
 import os
 import numpy as np
 import requests
-import os
 from sentence_transformers import CrossEncoder, SentenceTransformer
 import tiktoken
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from sheets_logger import log_answer
-
-
+from langchain_core.chat_history import InMemoryChatMessageHistory
+from langchain_core.messages import HumanMessage, AIMessage
 from dotenv import load_dotenv
 load_dotenv()
-
 import time
 from functools import wraps
+
+# -----------------------------
+# BACKEND CHAT MEMORY
+# -----------------------------
+SESSION_STORE = {}  # session_id -> ChatMessageHistory
+
+
+def get_history(session_id: str) -> InMemoryChatMessageHistory:
+    if session_id not in SESSION_STORE:
+        SESSION_STORE[session_id] = InMemoryChatMessageHistory()
+    return SESSION_STORE[session_id]
+
 
 # -----------------------------
 # CONFIG
@@ -154,7 +164,16 @@ def call_llm_stream(prompt: str):
     """
     payload = {
         "model": LLM_MODEL,
-        "messages": [{"role": "user", "content": prompt}],
+        "messages": [
+        {
+            "role": "system",
+            "content": "You are an internal HR knowledge assistant."
+        },
+        {
+            "role": "user",
+            "content": prompt
+        }
+    ],
         "temperature": 0.2,
         "stream": True,
     }
@@ -199,17 +218,18 @@ def call_llm_stream(prompt: str):
 
                 if delta:
                     yield delta
-
-
-# -----------------------------
-# RAG ANSWERING (STREAM)
-# -----------------------------
+                    
 @timer_decorator
-def answer_question_stream(query):
+def answer_question_stream(session_id:str,query:str):
+    history = get_history(session_id)
+
+
     chunks = retrieve(query)
     if not chunks:
         yield "I could not find this information in the provided documents."
-        return
+        return 
+    # ✅ add user message ONCE, after retrieval succeeds
+    history.add_message(HumanMessage(content=query))
     chunks = rerank_chunks(query, chunks, top_n=TOP_N_RERANK)
     print(f" Using {len(chunks)} chunks for context.")
     context = "\n\n".join(
@@ -217,12 +237,24 @@ def answer_question_stream(query):
         f"Section: {c['section_title']} | "
         f"Page: {c['page_number']}]\n{c['content']}"
         for c in chunks
+    ) 
+ 
+    history_text = "\n".join(
+        f"{'User' if isinstance(m, HumanMessage) else 'Assistant'}: {m.content}"
+        for m in history.messages[-8:] 
     )
-
+   
     prompt = f"""
 You are an internal HR knowledge assistant.
 IMPORTANT: Use simple, employee-friendly language. Avoid formal HR/legal terms unless necessary.
 
+Conversation History:
+{history_text}
+
+FRIENDLY ASSISTANT STYLE (IMPORTANT):
+- Respond in a warm, friendly, and conversational tone.
+- Sound like a helpful colleague, not a policy document.
+- Address the user naturally if appropriate, but do not overdo it.
 Your responsibilities:
 1. Understand the user’s intent.
 2. Use the provided context as the ONLY source of truth for company policy rules.
@@ -237,11 +269,15 @@ HOW TO INTERPRET HR POLICIES:
 - If the user asks “remaining leave” and entitlement + usage are clearly provided, you MAY compute:
   remaining = entitlement - used.
 
-FOLLOW-UP QUESTIONS (IMPORTANT):
-- If the user asks a short follow-up (example: “how many days?”, “how much?”, “remaining?”),
-  treat it as a follow-up to the most recent topic in the conversation.
+Using Conversation History:
+- Use conversation history ONLY to understand intent and resolve follow-up references.
+- Treat short or incomplete questions (example: “how many days?”, “how much?”, “remaining?”, “what about next year?”)
+  as follow-ups to the most recent relevant topic in the conversation.
+- If the current question is complete and clear on its own, answer it independently without relying on history.
+- Do NOT treat conversation history as a source of policy facts.
+- All policy facts must come ONLY from the provided policy context.
+- If the topic is still unclear after checking history, ask one short clarification question before answering.
 - Do NOT list all leave types unless the user explicitly asks for a full list or comparison.
-- If the leave type/topic is unclear, ask one short clarification question.
 
 TERMINOLOGY MAPPING (IMPORTANT):
 - Users may use informal terms (example: “sandwich leave”, “LOP cut”, “salary deduction”).
@@ -273,7 +309,6 @@ OUTPUT FORMAT:
 - Start with a 1-line direct answer.
 - Add 2–3 bullet points ONLY if needed.
 - Add Reference at the end when applicable.
-
 Context:
 {context}
 
@@ -288,10 +323,13 @@ Answer:
     print("\n Answer (streaming):\n")
 
     # Stream tokens
-    for chunk in call_llm_stream(prompt):
-        yield chunk
+    full_answer=""
+    for token in call_llm_stream(prompt):
+        full_answer+=token
+        yield token
 
-
+    history.add_message(AIMessage(content=full_answer))
+    history.messages = history.messages[-20:]
 def count_tokens(text: str) -> int:
     """
     Approximate token count using cl100k_base.
@@ -301,6 +339,8 @@ def count_tokens(text: str) -> int:
     return len(encoding.encode(text))
 
 if __name__ == "__main__":
+    SESSION_ID = "default_session"
+    
     print(" RAG Retriever ready (type 'exit' to quit)")
 
     while True:
@@ -308,11 +348,10 @@ if __name__ == "__main__":
         if query.lower() in ("exit", "q"):
             break
 
-        # 🔹 LLM STREAMING
         try:
             full_answer = ""
 
-            for token in answer_question_stream(query):
+            for token in answer_question_stream(SESSION_ID,query):
                 print(token, end="", flush=True)
                 full_answer += token
 
@@ -324,9 +363,7 @@ if __name__ == "__main__":
             continue  
 
         try:
-            print("DEBUG: about to save to Google Sheets")
             log_answer(query, full_answer)
-            print(" Answer saved to Google Sheets")
 
         except Exception as e:
             print("\nError during Google Sheets logging")
