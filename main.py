@@ -81,9 +81,6 @@ def ingest_chunks(chunks):
         faiss_index.add(vector)
         metadata_store.append(chunk)
 
-# -----------------------------
-# RETRIEVAL
-# -----------------------------
 def retrieve(query: str, top_k=5):
     q_vec = embeddings.embed_query(query)
     q_vec = np.array(q_vec, dtype="float32").reshape(1, -1)
@@ -99,9 +96,6 @@ def retrieve(query: str, top_k=5):
 
     return results
 
-# -----------------------------
-# ANSWERING (RAG)
-# -----------------------------
 def answer_question(query: str):
     retrieved_chunks = retrieve(query)
 

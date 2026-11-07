@@ -14,24 +14,16 @@ load_dotenv()
 import time
 from functools import wraps
 
-# -----------------------------
-# BACKEND CHAT MEMORY
-# -----------------------------
 SESSION_STORE = {}  # session_id -> ChatMessageHistory
-
-
 def get_history(session_id: str) -> InMemoryChatMessageHistory:
     if session_id not in SESSION_STORE:
         SESSION_STORE[session_id] = InMemoryChatMessageHistory()
     return SESSION_STORE[session_id]
-
-
 # -----------------------------
 # CONFIG
 # -----------------------------
 CHROMA_DIR = "./chroma_store"
 COLLECTION_NAME = "hr_policies"
-
 MODEL_NAME = "all-MiniLM-L6-v2"
 EMBED_DIM = 384
 TOP_K = 20
@@ -75,10 +67,6 @@ def timer_decorator(func):
             print(f"\n  {func.__name__} execution time: {elapsed_time:.4f} seconds\n")
             return result
     return wrapper
-
-# -----------------------------
-# LOAD VECTOR STORE
-# -----------------------------
 
 
 embeddings = HuggingFaceEmbeddings(
