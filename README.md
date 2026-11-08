@@ -92,14 +92,7 @@ Place your PDF documents inside the `Policy_Documents_iAgami` folder.
 ```bash
 python main.py
 ```
-
-## 💡 Example Questions
-
-- 📅 What is the annual leave policy?
-- 🏥 How many sick leaves are allowed?
-- 📈 What is the employee appraisal process?
-- 👥 What is the recruitment process?
-
+\
 ## 🧩 Things I Learned
 
 Building this project helped me understand that getting good answers from an LLM is not just about choosing a model. Document chunking, embedding quality, retrieval accuracy, and prompt design all make a difference.
