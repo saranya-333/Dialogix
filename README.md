@@ -108,8 +108,4 @@ One challenge I explored was improving retrieval when the chatbot selected irrel
 
 
 
-<p align="center">
-  💻 Built with Python, LangChain & RAG
-  <br/>
-  🚀 Exploring practical applications of Generative AI
-</p>
+
