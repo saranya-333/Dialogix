@@ -1,4 +1,4 @@
-# 🤖 Dialogix – HR Policy Chatbot using RAG
+# 🤖 Dialogix – Policy Chatbot using RAG
 
 An AI-powered chatbot that helps employees find answers to HR-related questions from policy documents without manually searching through lengthy PDFs.
 
